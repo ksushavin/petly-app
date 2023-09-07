@@ -2,7 +2,7 @@
   "name": "petly-app",
   "version": "1.1.0",
   "private": false,
-  "homepage": "https://petly-ukraine.netlify.app/",
+  "homepage": "https://ksushavin.github.io/petly-app/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
