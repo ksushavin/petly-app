@@ -5,7 +5,8 @@ import { ownPetsApi } from 'redux/ownPets/ownPetsApi';
 import { favoriteApi } from 'redux/favorite/favoriteApi';
 import { setAuthHeader, clearAuthHeader } from './authHeaderUtilities';
 
-axios.defaults.baseURL = process.env.REACT_APP_API_BASE_URL;
+// axios.defaults.baseURL = process.env.REACT_APP_API_BASE_URL;
+axios.defaults.baseURL = secrets.REACT_APP_API_BASE_URL;
 
 export const registerUser = createAsyncThunk(
   'auth/register',
